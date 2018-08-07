@@ -1,0 +1,252 @@
+{
+	"id": "9c171b99-2309-12bd-60bc-672cbe97db77",
+	"name": "marketing-app",
+	"description": "",
+	"order": [
+		"7d86197e-fdd5-ca37-49fa-f5a6c1c3a218",
+		"911c7ae9-d8b5-e9d8-4388-4e2eaef0e309",
+		"ac4cb860-7468-28ad-d285-ab90b5281d7c",
+		"0be82856-56ee-1e5f-f547-53abbdd8c2fd",
+		"a8d986ac-a577-591b-1864-ace18ef32945",
+		"2eb61d9d-cebd-ea14-ac3d-ecadf2d83087",
+		"9f1978b3-976b-b6bf-d802-211568630347"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1533428386239,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0be82856-56ee-1e5f-f547-53abbdd8c2fd",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8761/marketing-app/accounts/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533438747613,
+			"name": "Update Account",
+			"description": "",
+			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
+			"responses": [],
+			"rawModeData": "{\n    \"accountId\": 3,\n    \"companyName\": \"testco4\",\n    \"addressLine1\": \"al2\",\n    \"addressLine2\": \"al3\",\n    \"city\": \"la\",\n    \"state\": \"ca\",\n    \"postalCode\": \"1234\",\n    \"country\": \"usa\"\n}"
+		},
+		{
+			"id": "2eb61d9d-cebd-ea14-ac3d-ecadf2d83087",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8761/marketing-app/contacts/John1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533526956127,
+			"name": "Get Contact",
+			"description": "",
+			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"John\",\n\t\"emailAddress\": \"abc@mail.com\",\n\t\"addressLine1\": \"al5\",\n\t\"addressLine2\": \"al6\",\n\t\"city\": \"dc\",\n\t\"state\": \"ny\",\n\t\"postalCode\": \"1234\",\n\t\"country\" : \"usa\",\n\t\"companyName\": \"Atlassian\"\n}"
+		},
+		{
+			"id": "7d86197e-fdd5-ca37-49fa-f5a6c1c3a218",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8761/marketing-app/accounts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533528025654,
+			"name": "Create Account",
+			"description": "",
+			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
+			"responses": [],
+			"rawModeData": "{\n\t\"companyName\": \"Atlassian\",\n\t\"addressLine1\": \"al2\",\n\t\"addressLine2\": \"al3\",\n\t\"city\": \"dc\",\n\t\"state\": \"ny\",\n\t\"postalCode\": \"1234\",\n\t\"country\" : \"usa\"\n}"
+		},
+		{
+			"id": "911c7ae9-d8b5-e9d8-4388-4e2eaef0e309",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8761/marketing-app/accounts/testco2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533438737301,
+			"name": "Get Account",
+			"description": "",
+			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
+			"responses": []
+		},
+		{
+			"id": "9f1978b3-976b-b6bf-d802-211568630347",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8761/marketing-app/contacts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533613043793,
+			"name": "Update Contact",
+			"description": "",
+			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
+			"responses": [],
+			"rawModeData": "{\n    \"contactId\": 5,\n    \"name\": \"John5\",\n    \"emailAddress\": \"abc14@mail.com\",\n    \"addressLine1\": \"al5\",\n    \"addressLine2\": \"al6\",\n    \"city\": \"dc\",\n    \"state\": \"ny\",\n    \"postalCode\": \"1234\",\n    \"country\": \"usa\",\n    \"companyName\": \"Atlassian\"\n}"
+		},
+		{
+			"id": "a8d986ac-a577-591b-1864-ace18ef32945",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8761/marketing-app/contacts/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533613047545,
+			"name": "Create Contact",
+			"description": "",
+			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"John5\",\n\t\"emailAddress\": \"abc14@mail.com\",\n\t\"addressLine1\": \"al5\",\n\t\"addressLine2\": \"al6\",\n\t\"city\": \"dc\",\n\t\"state\": \"ny\",\n\t\"postalCode\": \"1234\",\n\t\"country\" : \"usa\"\n}"
+		},
+		{
+			"id": "ac4cb860-7468-28ad-d285-ab90b5281d7c",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8761/marketing-app/accounts/Atlassian",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1533528051809,
+			"name": "Get Contacts",
+			"description": "",
+			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
+			"responses": []
+		}
+	]
+}
