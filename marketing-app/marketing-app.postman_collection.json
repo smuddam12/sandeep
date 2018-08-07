@@ -231,7 +231,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8761/marketing-app/accounts/Atlassian",
+			"url": "http://localhost:8761/marketing-app/contacts/Atlassian",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -242,7 +242,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1533528051809,
+			"time": 1533621779116,
 			"name": "Get Contacts",
 			"description": "",
 			"collectionId": "9c171b99-2309-12bd-60bc-672cbe97db77",
