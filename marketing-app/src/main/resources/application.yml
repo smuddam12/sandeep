@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: marketing-app
+  datasource:
+    url: jdbc:h2:mem:test
+    driver-class-name: org.h2.Driver
+    data-username: sa
+    data-password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+      path: /h2
+server :
+  port: 8761
+
+eureka:
+  client:
+   register-with-eureka: true
+   fetch-registry: true
+   serviceUrl:
+     defaultZone: http://localhost:8761/marketing-app1
+  instance:
+    preferIpAddress: true
+
+logging:
+   level:
+    com:
+     netflix:
+      eureka: OFF
+      discovery: OFF
