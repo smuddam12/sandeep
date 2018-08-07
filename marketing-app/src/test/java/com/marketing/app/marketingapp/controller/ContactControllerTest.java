@@ -47,7 +47,7 @@ public class ContactControllerTest {
     @Test
     public void testPostContact() throws Exception {
         MockHttpServletResponse response = createContact();
-        assertEquals(200, response.getStatus());
+        assertEquals(201, response.getStatus());
     }
 
     @Test
@@ -96,7 +96,7 @@ public class ContactControllerTest {
         Mockito.when(marketingContactService.getContacts(Mockito.any(String.class))).thenReturn(testContactList);
 
         RequestBuilder requestBuilder = MockMvcRequestBuilders
-                .get("/marketing-app/contacts/company" + testContactList.get(0).getCompanyName())
+                .get("/marketing-app/contacts/company/" + testContactList.get(0).getCompanyName())
                 .accept(MediaType.APPLICATION_JSON);
 
         MvcResult result = mockMvc.perform(requestBuilder).andReturn();

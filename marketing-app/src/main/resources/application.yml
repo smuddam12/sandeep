@@ -2,7 +2,7 @@ spring:
   application:
     name: marketing-app
   datasource:
-    url: jdbc:h2:mem:test
+    url: jdbc:h2:mem:sandeep_muddam
     driver-class-name: org.h2.Driver
     data-username: sa
     data-password:

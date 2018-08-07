@@ -42,7 +42,7 @@ public class AccountControllerTest {
     @Test
     public void testPostAccount() throws Exception {
         MockHttpServletResponse response = createAccount();
-        assertEquals(200, response.getStatus());
+        assertEquals(201, response.getStatus());
     }
 
     @Test
