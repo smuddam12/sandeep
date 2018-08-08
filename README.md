@@ -57,7 +57,7 @@ _https://bitbucket.org/dcor_atlassian/atlassian-code-exercise-sr-full-stack-dev-
 
 6. _H2 DB: The H2 Database can be accessed at "http://localhost:8761/h2/" once the application has started and click connect._
 
-7. Make sure databse connection URL is **"jdbc:h2:mem:sandeep_muddam"**.
+7. Make sure database connection URL is **"jdbc:h2:mem:sandeep_muddam"**.
 
 ## PRE-REQUISITES FOR THE DEPLOYMENT OF THE MARKETING-APP in AWS:
 - Network diagram has to be prepared showing the traffic flow, once it is approved VPC is assigned.
